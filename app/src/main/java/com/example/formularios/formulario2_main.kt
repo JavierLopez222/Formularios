@@ -23,7 +23,7 @@ class formulario2_main : AppCompatActivity() {
             var bool3 = validarContra(etContra)
 
             if(bool1 && bool2 && bool3){
-                var intent = Intent(this, formulario2_2::class.java)
+                var intent = Intent(this, pass::class.java)
                 startActivity(intent)
             }
         }

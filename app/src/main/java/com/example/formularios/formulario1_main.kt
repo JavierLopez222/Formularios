@@ -20,7 +20,7 @@ class formulario1_main : AppCompatActivity() {
             var bool2 = validarEdad(etEdad)
 
             if( bool1 && bool2){
-                val intent = Intent(this, formulario1_2_main::class.java)
+                val intent = Intent(this, pass::class.java)
                 startActivity(intent)
             }
         }
